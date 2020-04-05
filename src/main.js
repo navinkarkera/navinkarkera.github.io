@@ -15,21 +15,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
+  faGitlab,
   faTwitter,
   faFacebook,
-  faLinkedin,
-  faHtml5,
-  faJsSquare,
-  faCss3Alt,
-  faAngular,
-  faReact,
-  faNodeJs,
-  faSass,
-  faLess,
-  faWordpress,
-  faGulp,
-  faGrunt,
-  faNpm,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 import {
   FontAwesomeIcon
@@ -37,24 +26,11 @@ import {
 
 library.add(
   faGithub,
+  faGitlab,
   faTwitter,
   faFacebook,
   faLinkedin,
-  faTrophy,
-  faHtml5,
-  faCss3Alt,
-  faJsSquare,
-  faAngular,
-  faReact,
-  faNodeJs,
-  faSass,
-  faLess,
-  faWordpress,
-  faGulp,
-  faGrunt,
-  faNpm,
-  faRss,
-  faCheck,
+  faTrophy
 )
 
 export default function (Vue, {

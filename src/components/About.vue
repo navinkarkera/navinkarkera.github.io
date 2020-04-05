@@ -31,7 +31,7 @@
           <font-awesome :icon="['fab', 'twitter']" />
         </a>
         <a href="https://gitlab.com/navinkarkera" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'github']" />
+          <font-awesome :icon="['fab', 'gitlab']" />
         </a>
       </div>
     </div>
