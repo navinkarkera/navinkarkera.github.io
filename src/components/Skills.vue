@@ -10,44 +10,16 @@
           <small>Python</small>
         </li>
         <li class="list-inline-item">
+          <i class="devicons devicons-rust"></i>
+          <small>Rust</small>
+        </li>
+        <li class="list-inline-item">
           <i class="devicons devicons-python"></i>
           <small>Pandas</small>
         </li>
         <li class="list-inline-item">
           <i class="devicons devicons-django"></i>
           <small>Django/Flask/Fastapi</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-docker"></i>
-          <small>Docker</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-bootstrap"></i>
-          <small>Bootstrap</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-postgresql"></i>
-          <small>Postgresql</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-html5"></i>
-          <small>HTML</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-java"></i>
-          <small>Java</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-rust"></i>
-          <small>Rust</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-javascript"></i>
-          <small>Javascript</small>
-        </li>
-        <li class="list-inline-item">
-          <i class="devicons devicons-jquery"></i>
-          <small>jQuery</small>
         </li>
         <li class="list-inline-item">
           <i class="devicons devicons-python"></i>
@@ -64,6 +36,30 @@
         <li class="list-inline-item">
           <i class="devicons devicons-git"></i>
           <small>Git</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-docker"></i>
+          <small>Docker</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-postgresql"></i>
+          <small>Postgresql</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-javascript"></i>
+          <small>Javascript/React/Vue</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-bootstrap"></i>
+          <small>Bootstrap</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-html5"></i>
+          <small>HTML</small>
+        </li>
+        <li class="list-inline-item">
+          <i class="devicons devicons-java"></i>
+          <small>Java</small>
         </li>
         <li class="list-inline-item">
           <small></small>
