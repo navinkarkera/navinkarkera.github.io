@@ -1,0 +1,15 @@
+<div class="mb-8">
+  <h2 class="mt-8 sm:mt-0">
+    <i class="fas fa-briefcase"></i>
+    {{ .Site.Params.experiences.title }}
+  </h2>
+
+  {{ range.Site.Params.jobs.list }}
+  <h3 class="mb-1">{{ .position }}</h3>
+  <p class="ml-1 mb-0">
+    {{ if .link }}<a class="font-semibold" href="{{ .link }}" target="_blank">{{ .company }}</a>
+    {{ else }}{{ .company }}{{ end }} &middot; {{ trim .dates " " | markdownify }}
+  </p>
+  <p class="ml-2 mb-0">{{ trim .details " " | markdownify }}</p>
+  {{ end }}
+</div>

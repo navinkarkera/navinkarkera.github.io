@@ -1,0 +1,206 @@
+baseURL = "http://navinkarkera.github.io/"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+name = "Navin Karkera"
+title = "Resume"
+author = "Navin Karkera"
+description = "Full Stack Python Developer"
+copyright = "Custom copyright message"
+theme = "dark" # `dark` or `light`
+useResources = false
+
+# Profile section
+[params.profile]
+name = "Navin Karkera"
+photo = "images/profile.jpg"
+
+# Section for links to social websites
+[params.social]
+title = "Links"
+
+[[params.social.list]]
+icon = "fab fa-linkedin-in"
+url = "#"
+title = "LinkedIn"
+
+[[params.social.list]]
+icon = "fab fa-github"
+url = "#"
+title = "GitHub"
+
+[[params.social.list]]
+icon = "fab fa-gitlab"
+url = "#"
+title = "Gitlab"
+
+[[params.social.list]]
+icon = "fab fa-reddit"
+url = "#"
+title = "Reddit"
+
+# Education section
+[params.education]
+title = "Education"
+
+[[params.education.list]]
+degree = "Bachelor of Engineering"
+college = "University of Mumbai"
+dates = "2011 - 2014"
+field = "Electronics and Telecommunication"
+
+[[params.education.list]]
+degree = "Diploma"
+college = "Maharashtra State Board of Technical Education"
+dates = "2008 - 2011"
+field = "Industrial Electronics"
+
+# Languages section
+[params.language]
+title = "Languages"
+
+[[params.language.list]]
+language = "English"
+level = "Fluent"
+
+[[params.language.list]]
+language = "Hindi"
+level = "Fluent"
+
+# Interests section
+[params.hobbies]
+title = "Hobbies"
+
+[[params.hobbies.list]]
+interest = "Travelling"
+
+[[params.hobbies.list]]
+interest = "Music"
+
+[[params.hobbies.list]]
+interest = "Reading"
+
+[params.aboutme]
+description = """
+I am a software developer working as a Python Automation Expert in UBS, automating different process using Python and web technologies.
+
+In my own time, I like to learn new technologies like Rust, Go and customize my GNU/Linux setup. I use `Neovim` as my main editor, and like to improve my workflow with it.
+"""
+
+
+# Experiences section
+[params.experiences]
+title = "Experiences"
+
+[[params.jobs.list]]
+position = "Authorized Officer"
+dates = "Jan 2018 - *Present*"
+link = "https://www.ubs.com/"
+company = "UBS"
+details = """
+*Core technologies*: `Python, VueJs and GNU/Linux`
+
+Served as core member of the team working on building an automated model
+documentation solution, while handling multiple side projects individually
+related to automating process for different teams.
+
+*Key Achievements:*
+
+> Developed major features for documentation automation solution (**DocKit**)
+> ranging from **JupyterLab plugins** to **smart merging** of notebooks.
+
+> Developed reporting solution using **Python/Flask/Pandas** which greatly
+> reduced cost and time for reports to be send to **FED**
+
+> Developed web applications using Python FastAPI and VueJs and automated
+> multiple ETL process using Python Airflow.
+
+"""
+
+[[params.jobs.list]]
+position = "Senior Software Developer"
+dates = "Feb 2017 - Jan 2018"
+link = "https://www.bankofamerica.com/"
+company = "Bank of America"
+details = """
+*Core technologies*: `Python, SQL`
+
+Worked for Market Risk team solving architectural design issues and code level
+issues. Built complete systems to automate a manual process and also helped
+migrating complete projects from Java to Python platform.
+
+*Key Achievements:*
+
+> Initiated a project called Chat-Bot, built it from scratch using NLTK and
+> Django rest framework, also integrated it with Skype for Business.
+
+"""
+
+[[params.jobs.list]]
+position = "Lead Developer"
+dates = "Feb 2015 - Feb 2017"
+link = "https://dff.org.in/"
+company = "Digital Freedom foundation"
+details = """
+*Core technologies*: `Python, Postgres, Docker and GNU/Linux`
+
+Started my career as a software developer in a start-up where I worked on
+everything related to a web application, from designing, development to
+deployment. The project was a Free and open source accountiog and inventory
+software called GNUKhata. Built it from scratch using Pyramid pylons framework,
+bootstrap, JQuery, Postgres, Docker etc.
+"""
+
+# Projects section
+[params.projects]
+title = "Projects"
+
+[[params.projects.list]]
+title = "Dockit"
+url = "#"
+description = "JupyterLab based documentation solution for building Model development/validation/confirmation reports using Jinja templates and LaTex"
+
+[[params.projects.list]]
+title = "RWA"
+url = "#"
+description = "Web application to generate multiple reports to be sent to Feds"
+
+[[params.projects.list]]
+title = "GNUKhata"
+url = "#"
+description = "Free & Open Source accounting and inventory software"
+
+# Skills section
+[params.skills]
+title = "Skills"
+
+[[params.skills.list]]
+skill = "Python, Pandas, FastAPI"
+skillrating = 95 # out of 100
+
+[[params.skills.list]]
+skill = "Git"
+skillrating = 95 # out of 100
+
+[[params.skills.list]]
+skill = "Javascript, VueJs, working knowledge of CSS"
+skillrating = 90
+
+[[params.skills.list]]
+skill = "Airflow/Prefect"
+skillrating = 80
+
+[[params.skills.list]]
+skill = "Sql, PostgresSQL"
+skillrating = 80
+
+[[params.skills.list]]
+skill = "Flask/Django"
+skillrating = 60 # out of 100
+
+[[params.skills.list]]
+skill = "Rust"
+skillrating = 40 # out of 100
+
