@@ -1,4 +1,4 @@
-baseURL = "http://navinkarkera.github.io/"
+baseURL = "https://navinkarkera.github.io/"
 languageCode = "en-us"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
