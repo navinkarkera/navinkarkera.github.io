@@ -9,14 +9,16 @@
     {{ partial "aboutDesc" . }}
     {{ partial "language.html" . }}
     {{ partial "hobby.html" . }}
+    <hr>
+    {{ partial "education.html" . }}
+    {{ partial "skill.html" . }}
   </div>
   <!-- {{- partial "footer.html" . -}} -->
 </section>
 
 <section class="w-full sm:w-3/5 px-3">
   {{ partial "experience.html" . }}
-  {{ partial "education.html" . }}
   {{ partial "project.html" . }}
-  {{ partial "skill.html" . }}
 </section>
+
 {{ end }}

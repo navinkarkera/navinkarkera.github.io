@@ -23,23 +23,28 @@ title = "Links"
 
 [[params.social.list]]
 icon = "fab fa-linkedin-in"
-url = "#"
+url = "https://www.linkedin.com/in/navin-karkera-407957a0/"
 title = "LinkedIn"
 
 [[params.social.list]]
 icon = "fab fa-github"
-url = "#"
+url = "https://github.com/navinkarkera"
 title = "GitHub"
 
 [[params.social.list]]
 icon = "fab fa-gitlab"
-url = "#"
+url = "https://gitlab.com/navinkarkera"
 title = "Gitlab"
 
 [[params.social.list]]
 icon = "fab fa-reddit"
-url = "#"
+url = "https://www.reddit.com/user/navinkarkera"
 title = "Reddit"
+
+[[params.social.list]]
+icon = "fas fa-file-download"
+url = "Resume.pdf"
+title = "Download PDF"
 
 # Education section
 [params.education]
@@ -112,7 +117,7 @@ related to automating process for different teams.
 > ranging from **JupyterLab plugins** to **smart merging** of notebooks.
 
 > Developed reporting solution using **Python/Flask/Pandas** which greatly
-> reduced cost and time for reports to be send to **FED**
+> reduced cost and time for reports to be send to **FED**.
 
 > Developed web applications using Python FastAPI and VueJs and automated
 > multiple ETL process using Python Airflow.
@@ -148,9 +153,18 @@ details = """
 
 Started my career as a software developer in a start-up where I worked on
 everything related to a web application, from designing, development to
-deployment. The project was a Free and open source accountiog and inventory
+deployment. The project was a Free and open source accounting and inventory
 software called GNUKhata. Built it from scratch using Pyramid pylons framework,
 bootstrap, JQuery, Postgres, Docker etc.
+
+*Key Achievements:*
+
+> Learnt about programming in Python and web technologies the most in the first
+> two years and contributed extensively to the project GNUKhata.
+
+> Grasped concepts of containerized environments in the process of making
+> deployment of GNUKhata platform independent using Docker.
+
 """
 
 # Projects section
