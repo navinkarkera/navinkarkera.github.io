@@ -3,7 +3,7 @@
     <i class="fas fa-project-diagram"></i> {{ .Site.Params.projects.title }}
 </h2>
 {{ range .Site.Params.projects.list }}
-<h3 class="mb-1"><a class="text-warning" href="{{ .url }}">{{ .title }}</a></h3>
+<h3 class="mb-1"><a class="text-warning" target="_blank" href="{{ .url }}" rel="external">{{ .title }}</a></h3>
 <p class="mb-0 ml-1">{{ trim .description " " | markdownify }}</p>
 {{ end }}
 </div>

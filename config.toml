@@ -183,7 +183,7 @@ description = "Web application to generate multiple reports to be sent to Feds"
 
 [[params.projects.list]]
 title = "GNUKhata"
-url = "#"
+url = "https://gnukhata.in/"
 description = "Free & Open Source accounting and inventory software"
 
 # Skills section
