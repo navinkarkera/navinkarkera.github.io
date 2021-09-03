@@ -109,20 +109,43 @@ company = "UBS"
 details = """
 *Core technologies*: `Python, VueJs and GNU/Linux`
 
-Served as core member of the team working on building an automated model
-documentation solution, while handling multiple side projects individually
-related to automating process for different teams.
+Serving as a core member of the team working on building an automated model
+documentation solution used by the whole division, while handling multiple side
+projects individually such as building web applications, automating ETL like
+processes and reporting solutions for different teams.
 
 *Key Achievements:*
 
-> Developed major features for documentation automation solution (**DocKit**)
-> ranging from **JupyterLab plugins** to **smart merging** of notebooks.
+- Developing major features for division wide solution for documentation
+  automation (**DocKit**) ranging from **JupyterLab plugins** to **smart
+  merging** of notebooks.
 
-> Developed reporting solution using **Python/Flask/Pandas** which greatly
-> reduced cost and time for reports to be send to **FED**.
+- Developed reporting solution for Risk Weighted Assets(RWA) using
+  **Python/Pandas/Flask** which greatly reduced cost and time to generate
+  reports which is sent to FED Regulators.
 
-> Developed web applications using Python FastAPI and VueJs and automated
-> multiple ETL process using Python Airflow.
+- Worked in Agile Methodology to develop static sites and dynamic web
+  applications using tools like `FastAPI`, `VueJs`, `NLTK/Spacy` to build smart
+  solutions like google like FAQ, shares reporting to Regulators etc.
+
+- Built soultions using `Python Airflow`, `Pandas` etc. to automate ETL like
+  process involving Chief Risk Officers which included reporting of shorfalls,
+  violations, ECN limits etc. These was recognized as a major help for the bank
+  in pandemic times.
+
+- Got a chance to learn about data processing, training machine learning models
+  while working **data qualtity** project which was an attempt to detect data
+  qualtity issues in data received by other banks which was manually
+  scanned by Risk Officers.
+
+- Handled multiple deployments in GNU/Linux servers hosted on Azure. Secured
+  web services using tools like `systemd`, `nginx`.
+
+- Conducted Python Workshops.
+
+- Conducted and participated in hackathons.
+
+- _**Promoted to Authorized Officer from Employee position.**_.
 
 """
 
@@ -140,8 +163,8 @@ migrating complete projects from Java to Python platform.
 
 *Key Achievements:*
 
-> Initiated a project called Chat-Bot, built it from scratch using NLTK and
-> Django rest framework, also integrated it with Skype for Business.
+- Initiated a project called Chat-Bot, built it from scratch using NLTK and
+  Django rest framework, also integrated it with Skype for Business.
 
 """
 
@@ -161,11 +184,11 @@ bootstrap, JQuery, Postgres, Docker etc.
 
 *Key Achievements:*
 
-> Learnt about programming in Python and web technologies the most in the first
-> two years and contributed extensively to the project GNUKhata.
+- Learnt about programming in Python and web technologies the most in the first
+  two years and contributed extensively to the project GNUKhata.
 
-> Grasped concepts of containerized environments in the process of making
-> deployment of GNUKhata platform independent using Docker.
+- Grasped concepts of containerized environments in the process of making
+  deployment of GNUKhata platform independent using Docker.
 
 """
 
