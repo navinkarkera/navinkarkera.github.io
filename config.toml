@@ -117,11 +117,15 @@ processes and reporting solutions for different teams.
 *Key Achievements:*
 
 - Developing major features for division wide solution for documentation
-  automation (**DocKit**) ranging from **JupyterLab plugins** to **smart
-  merging** of notebooks.
+  automation (`DocKit`) ranging from `JupyterLab plugins` to **smart merging**
+  of notebooks. Using `pandoc` to convert from one format to another i.e.
+  jupyter notebooks to markdown to LaTex and Jinja templates to dynamically
+  generate LaTex files, we are automating the process for model documentation,
+  confirmation and validation. I am involved in planning, development,
+  documentation and working with clients to onboard the tool.
 
 - Developed reporting solution for Risk Weighted Assets(RWA) using
-  **Python/Pandas/Flask** which greatly reduced cost and time to generate
+  `Python/Pandas/Flask` which greatly reduced cost and time to generate
   reports which is sent to FED Regulators.
 
 - Worked in Agile Methodology to develop static sites and dynamic web
@@ -130,7 +134,7 @@ processes and reporting solutions for different teams.
 
 - Built soultions using `Python Airflow`, `Pandas` etc. to automate ETL like
   process involving Chief Risk Officers which included reporting of shorfalls,
-  violations, ECN limits etc. These was recognized as a major help for the bank
+  violations, ECN limits etc. These were recognized as a major help for the bank
   in pandemic times.
 
 - Got a chance to learn about data processing, training machine learning models
@@ -139,11 +143,12 @@ processes and reporting solutions for different teams.
   scanned by Risk Officers.
 
 - Handled multiple deployments in GNU/Linux servers hosted on Azure. Secured
-  web services using tools like `systemd`, `nginx`.
+  the web services using tools like `systemd`, `nginx`. Automated deployments
+  using bash scripts, python doit wherever possible.
 
 - Conducted Python Workshops.
 
-- Conducted and participated in hackathons.
+- Won a hackathon and helped in conducting another hackathon.
 
 - _**Promoted to Authorized Officer from Employee position.**_.
 
