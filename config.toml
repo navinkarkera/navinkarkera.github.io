@@ -29,6 +29,11 @@ url = "https://www.linkedin.com/in/navin-karkera-407957a0/"
 title = "LinkedIn"
 
 [[params.social.list]]
+icon = "fab fa-youtube"
+url = "https://www.youtube.com/channel/UC6_qlLt9q-o3K5E0Un6eCYw"
+title = "YouTube"
+
+[[params.social.list]]
 icon = "fab fa-github"
 url = "https://github.com/navinkarkera"
 title = "GitHub"
@@ -37,11 +42,6 @@ title = "GitHub"
 icon = "fab fa-gitlab"
 url = "https://gitlab.com/navinkarkera"
 title = "Gitlab"
-
-[[params.social.list]]
-icon = "fab fa-reddit"
-url = "https://www.reddit.com/user/navinkarkera"
-title = "Reddit"
 
 [[params.social.list]]
 icon = "fas fa-file-download"
@@ -91,9 +91,27 @@ interest = "Reading"
 
 [params.aboutme]
 description = """
-I am a software developer working as a Python Automation Expert in UBS, automating different process using Python and web technologies.
+I'm a Full Stack Python developer with experience in creating scalable and
+robust applications using Python and Web technologies. Working with both
+start-ups and large organisations has prepared me to perform in a variety of
+situations.
 
-In my own time, I like to learn new technologies like Rust, Go and customize my GNU/Linux setup. I use `Neovim` as my main editor, and like to improve my workflow with it.
+### [YouTube Channel](https://www.youtube.com/channel/UC6_qlLt9q-o3K5E0Un6eCYw)
+
+_**Name:**_ [ITcracy](https://www.youtube.com/channel/UC6_qlLt9q-o3K5E0Un6eCYw)
+
+You can also find me on YouTube, where my software developer friend [Ishan
+Masdekar](https://imasdekar.gitlab.io/) and I share our expertise in
+programming languages and other technologies.
+
+
+### Learning new things
+
+In my spare time, I enjoy learning new technologies such as Rust and Go, as
+well as customising my GNU/Linux setup. I use Neovim as my primary editor and
+am always looking for ways to improve it.
+
+---
 """
 
 
@@ -109,46 +127,47 @@ company = "UBS"
 details = """
 *Core technologies*: `Python, VueJs and GNU/Linux`
 
-Serving as a core member of the team working on building an automated model
-documentation solution used by the whole division, while handling multiple side
-projects individually such as building web applications, automating ETL like
-processes and reporting solutions for different teams.
+Serving as a key member of the team developing an automated model documentation
+solution for the entire division, as well as taking on multiple side projects
+such as developing web apps, automating ETL operations, and developing
+reporting solutions for various teams.
 
 *Key Achievements:*
 
-- Developing major features for division wide solution for documentation
-  automation (`DocKit`) ranging from `JupyterLab plugins` to **smart merging**
-  of notebooks. Using `pandoc` to convert from one format to another i.e.
-  jupyter notebooks to markdown to LaTex and Jinja templates to dynamically
-  generate LaTex files, we are automating the process for model documentation,
-  confirmation and validation. I am involved in planning, development,
-  documentation and working with clients to onboard the tool.
+- Core developer for the project `DocKit`, a division-wide solution for
+  document automation that involves everything from `JupyterLab` plugins to
+  smart notebook merging. We're automating the process of model documentation,
+  confirmation, and validation by using `pandoc` to convert from one format to
+  another, such as jupyter notebooks to markdown to LaTex, and `Jinja`
+  templates to dynamically generate LaTex files. I contribute on the tool's
+  planning, development, documentation, and on boarding with clients.
 
-- Developed reporting solution for Risk Weighted Assets(RWA) using
-  `Python/Pandas/Flask` which greatly reduced cost and time to generate
-  reports which is sent to FED Regulators.
+- Using `Python/Pandas/Flask`, developed a reporting system for Risk Weighted
+  Assets (RWA) that considerably decreased the cost and time it took to prepare
+  reports that were delivered to FED Regulators.
 
-- Worked in Agile Methodology to develop static sites and dynamic web
-  applications using tools like `FastAPI`, `VueJs`, `NLTK/Spacy` to build smart
-  solutions like google like FAQ, shares reporting to Regulators etc.
+- Developed static and dynamic web pages while working in Agile methodology.
+  to construct smart applications utilising tools like FastAPI, VueJs, and
+  NLTK/Spacy such as FAQs, share reporting to regulators, and so on.
 
-- Built soultions using `Python Airflow`, `Pandas` etc. to automate ETL like
-  process involving Chief Risk Officers which included reporting of shorfalls,
-  violations, ECN limits etc. These were recognized as a major help for the bank
-  in pandemic times.
+- Created solutions using Python Airflow, Pandas, and other tools to automate
+  ETL-like processes involving Chief Risk Officers, such as reporting of
+  shortfalls, violations, and ECN limits, among other things. These were seen
+  as a huge aid to the bank during pandemics.
 
-- Got a chance to learn about data processing, training machine learning models
-  while working **data qualtity** project which was an attempt to detect data
-  qualtity issues in data received by other banks which was manually
-  scanned by Risk Officers.
+- Learned about data processing and machine learning while working on the
+  **data quality** project, which was an attempt to detect data quality
+  issues in data received from other banks and manually scanned by Risk
+  Officers.
 
-- Handled multiple deployments in GNU/Linux servers hosted on Azure. Secured
-  the web services using tools like `systemd`, `nginx`. Automated deployments
-  using bash scripts, python doit wherever possible.
+- Managed several deployments on Azure-hosted GNU/Linux machines. Using tools
+  like systemd and nginx, I was able to secure the web services. Wherever
+  possible, automated deployments utilising bash scripts, python doit, and
+  other tools.
 
 - Conducted Python Workshops.
 
-- Won a hackathon and helped in conducting another hackathon.
+- Won a hackathon and assisted in the organisation of another.
 
 - _**Promoted to Authorized Officer from Employee position.**_.
 
@@ -181,19 +200,23 @@ company = "Digital Freedom foundation"
 details = """
 *Core technologies*: `Python, Postgres, Docker and GNU/Linux`
 
-Started my career as a software developer in a start-up where I worked on
-everything related to a web application, from designing, development to
-deployment. The project was a Free and open source accounting and inventory
-software called GNUKhata. Built it from scratch using Pyramid pylons framework,
-bootstrap, JQuery, Postgres, Docker etc.
+I began my career as a software developer in a start-up, where I was
+responsible for all aspects of a web application, including design,
+development, and deployment. GNUKhata, a free and open source accounting and
+inventory software, was the project. It was built from the ground up utilising
+the `Pyramid Pylons framework`, `bootstrap`, `JQuery`, `Postgres`, `Docker`,
+and other tools.
 
 *Key Achievements:*
 
-- Learnt about programming in Python and web technologies the most in the first
-  two years and contributed extensively to the project GNUKhata.
+- In the first two years, I learned the most about Python programming and web
+  technologies, and I contributed significantly to the GNUKhata project.
 
-- Grasped concepts of containerized environments in the process of making
-  deployment of GNUKhata platform independent using Docker.
+- Learned about containerized environments as part of the process of leveraging
+  Docker to make the GNUKhata platform agnostic.
+
+- Along with the DFF team, conducted many FOSS workshops at institutions in
+  Maharashtra, India.
 
 """
 
