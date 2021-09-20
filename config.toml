@@ -136,11 +136,11 @@ reporting solutions for various teams.
 
 - Core developer for the project `DocKit`, a division-wide solution for
   document automation that involves everything from `JupyterLab` plugins to
-  smart notebook merging. We're automating the process of model documentation,
-  confirmation, and validation by using `pandoc` to convert from one format to
-  another, such as jupyter notebooks to markdown to LaTex, and `Jinja`
-  templates to dynamically generate LaTex files. I contribute on the tool's
-  planning, development, documentation, and on boarding with clients.
+  smart notebook merging. We're automating the process of model validation and
+  confirmation by using `pandoc` to convert from one format to another, such as
+  jupyter notebooks to markdown to LaTex, and `Jinja` templates to dynamically
+  generate LaTex files. I contribute on the tool's planning, development,
+  documentation, and on boarding with clients.
 
 - Using `Python/Pandas/Flask`, developed a reporting system for Risk Weighted
   Assets (RWA) that considerably decreased the cost and time it took to prepare
@@ -227,7 +227,7 @@ title = "Projects"
 [[params.projects.list]]
 title = "Dockit"
 url = "#"
-description = "JupyterLab based documentation solution for building Model development/validation/confirmation reports using Jinja templates and LaTex"
+description = "JupyterLab based documentation solution for building Model validation/confirmation reports using Jinja templates and LaTex"
 
 [[params.projects.list]]
 title = "RWA"
