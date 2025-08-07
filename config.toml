@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 name = "Navin Karkera"
 title = "Resume"
 author = "Navin Karkera"
-description = "Full Stack Python Developer"
+description = "Full Stack Developer"
 copyright = "Custom copyright message"
 theme = "dark" # `dark` or `light`
 useResources = false
@@ -91,7 +91,7 @@ interest = "Reading"
 
 [params.aboutme]
 description = """
-I'm a Full Stack Python developer with experience in creating scalable and
+I'm a Full Stack developer with experience in creating scalable and
 robust applications using Python and Web technologies. Working with both
 start-ups and large organisations has prepared me to perform in a variety of
 situations.
@@ -100,14 +100,14 @@ situations.
 
 _**Name:**_ [ITcracy](https://www.youtube.com/channel/UC6_qlLt9q-o3K5E0Un6eCYw)
 
-You can also find me on YouTube, where my software developer friend [Ishan
-Masdekar](https://imasdekar.gitlab.io/) and I share our expertise in
-programming languages and other technologies.
+You can also find me on YouTube *(not active anymore)*, where my software
+developer friend [Ishan Masdekar](https://imasdekar.gitlab.io/) and I share our
+expertise in programming languages and other technologies.
 
 
 ### Learning new things
 
-In my spare time, I enjoy learning new technologies such as Rust and Go, as
+In my spare time, I enjoy learning new technologies such as Rust, Bun and Go, as
 well as customising my GNU/Linux setup. I use Neovim as my primary editor and
 am always looking for ways to improve it.
 
@@ -120,8 +120,45 @@ am always looking for ways to improve it.
 title = "Experiences"
 
 [[params.jobs.list]]
+position = "Senior Open Source Developer (Remote)"
+dates = "March 2022 - *Present*"
+link = "https://opencraft.com/"
+company = "OpenCraft"
+details = """
+*Core technologies*: `Python, Typescript, React, and Docker`
+
+We as OpenCraft provide managed hosting for Open edX deployments small enough
+to serve small organisations or large enough for a nation state. We also work
+on implementing new features and fix bugs in Open edX.
+
+Currently, my responsibility is developing new features for Open edX, like the
+new library authoring experience.
+
+*Key Achievements:*
+
+- Built [xblock-skill-tagging](https://github.com/openedx/xblock-skill-tagging)
+  Open edX plugin from scratch to automatically tag content in courses and use
+  user feedback to verify and finalize them.
+
+- Built [event-bus-redis](https://github.com/openedx/event-bus-redis) from
+  scratch which serves as a Redis Streams implementation of Open edX event bus.
+  Joined Open edX [Core Contributor](https://docs.openedx.org/en/latest/developers/references/developer_guide/process/core-contributors.html)
+  program following this contribution.
+
+- Built [Course outline](https://docs.openedx.org/en/latest/educators/concepts/open_edx_platform/about_course_outline.html)
+  functionality using React and Typescript for Open edX Studio.
+
+- Built UI foundation of [Listaflow](https://gitlab.com/opencraft/dev/listaflow)
+  using React and redux. Listaflow is an Open Source web application for
+  tracking your recurring business practices and checklists.
+
+- Currently, contributing my time to build the new [library
+  authoring](https://github.com/openedx/frontend-app-authoring) experience.
+"""
+
+[[params.jobs.list]]
 position = "Authorized Officer"
-dates = "Jan 2018 - *Present*"
+dates = "Jan 2018 - Feb 2022"
 link = "https://www.ubs.com/"
 company = "UBS"
 details = """
@@ -244,7 +281,7 @@ description = "Free & Open Source accounting and inventory software"
 title = "Skills"
 
 [[params.skills.list]]
-skill = "Python, Pandas, FastAPI"
+skill = "Python, Django, FastAPI"
 skillrating = 95 # out of 100
 
 [[params.skills.list]]
@@ -252,8 +289,8 @@ skill = "Git"
 skillrating = 95 # out of 100
 
 [[params.skills.list]]
-skill = "Javascript, VueJs, working knowledge of CSS"
-skillrating = 90
+skill = "Javascript, Typescript, React"
+skillrating = 95
 
 [[params.skills.list]]
 skill = "Airflow/Prefect"
@@ -264,10 +301,10 @@ skill = "Sql, PostgresSQL"
 skillrating = 80
 
 [[params.skills.list]]
-skill = "Flask/Django"
-skillrating = 60 # out of 100
+skill = "Rust"
+skillrating = 40 # out of 100
 
 [[params.skills.list]]
-skill = "Rust"
+skill = "Go"
 skillrating = 40 # out of 100
 
